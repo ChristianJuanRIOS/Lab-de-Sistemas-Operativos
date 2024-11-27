@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presentación Personal</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            background-color: #f4f4f9;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .icon {
+            font-size: 50px;
+            margin-bottom: 15px;
+            color: #007bff;
+        }
+
+        .content {
+            display: flex;
+            flex-direction: column; 
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            padding: 40px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .category {
+            width: 300px;
+            height: 180px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s;
+            text-decoration: none;
+        }
+
+        .category:hover {
+            transform: scale(1.05);
+        }
+
+        .category h2 {
+            font-size: 1.2em;
+            margin-top: 10px;
+            color: #333;
+        }
+
+        .category:hover h2 {
+            color: #007bff;
+        }
+
+        footer {
+            background-color: #e74c3c;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            width: 100%;
+        }
+
+        footer .social {
+            margin: 10px 0;
+        }
+
+        footer a {
+            color: #fff;
+            margin: 0 8px;
+            font-size: 18px;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hola, soy Christian Rios</h1>
+    
+    <div class="content">
+        <a href="edad.html" target="_blank" class="category">
+            <div class="icon"><i class="fa-solid fa-info fa-flip" style="color: #000000;"></i></div>
+            <h2>Edad y algunos datos sobre mí</h2>
+        </a>
+       
+        <a href="color.html" target="_blank" class="category">
+            <div class="icon"><i class="fa-solid fa-palette fa-spin" style="color: #630000;"></i></div>
+            <h2>Color y Comida Favorita</h2>
+        </a>
+ 
+        <a href="me gusta.html" target="_blank" class="category">
+            <div class="icon"><i class="fa-solid fa-check fa-fade" style="color: #00ff00;"></i></div>
+            <h2>Me Gusta</h2>
+        </a>
+        
+        <a href="mascotas.html" target="_blank" class="category">
+            <div class="icon"><i class="fa-solid fa-dog fa-bounce" style="color: #000000;"></i></div>
+            <h2>Mascotas</h2>
+        </a>
+        
+        <a href="no me gusta.html" target="_blank" class="category">
+            <div class="icon"><i class="fa-solid fa-xmark fa-flip" style="color: #ff0000;"></i></div>
+            <h2>No Me Gusta</h2>
+        </a>
+    </div>
+
+    <footer>
+        <div class="social">
+            <b>Contáctame:</b><br>
+            <a href="https://www.facebook.com/Chris_0824" target="_blank"><i class="fab fa-facebook fa-spin"></i> Facebook</a>
+            <a href="https://twitter.com/asdfghjklñ_184523213" target="_blank"><i class="fa-brands fa-x-twitter fa-beat"></i> Twitter</a>
+            <a href="https://www.instagram.com/qwerty_80126543" target="_blank"><i class="fab fa-instagram fa-flip"></i> Instagram</a> 
+        </div>
+    </footer>
+</body>
+</html>
